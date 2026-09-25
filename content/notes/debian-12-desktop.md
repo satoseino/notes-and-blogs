@@ -143,7 +143,7 @@ curl --proto '=https' --tlsv1.2 -sSf https://sh.rustup.rs | sh
 
 ```bash
 mkdir -p ~/.config
-git clone https://github.com/kxue43/substance ~/.config/substance
+git clone https://github.com/satoseino/substance ~/.config/substance
 ~/.config/substance/set-up.sh
 ```
 
@@ -152,10 +152,10 @@ Restart the terminal so that Bash start-up files take effect.
 ## Install go executables
 
 ```bash
-go install github.com/kxue43/cli-toolkit/cmd/toolkit@latest
-go install github.com/kxue43/cli-toolkit/cmd/toolkit-assume-role@latest
-go install github.com/kxue43/cli-toolkit/cmd/toolkit-serve-static@latest
-go install github.com/kxue43/cli-toolkit/cmd/toolkit-show-md@latest
+go install github.com/satoseino/cli-toolkit/cmd/toolkit@latest
+go install github.com/satoseino/cli-toolkit/cmd/toolkit-assume-role@latest
+go install github.com/satoseino/cli-toolkit/cmd/toolkit-serve-static@latest
+go install github.com/satoseino/cli-toolkit/cmd/toolkit-show-md@latest
 go install mvdan.cc/sh/v3/cmd/shfmt@latest
 ```
 

@@ -1,10 +1,10 @@
-baseURL: "https://kxue43.github.io/notes-and-blogs/"
+baseURL: "https://satoseino.github.io/notes-and-blogs/"
 locale: "en-us"
 title: 佐藤 清之介
 
 module:
   imports:
-    - path: "github.com/kxue43/seinosuke"
+    - path: "github.com/satoseino/seinosuke"
 
 menus:
   main:

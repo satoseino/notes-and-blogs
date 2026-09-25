@@ -189,7 +189,7 @@ project-docs/
 
 ## Make it a skill
 
-This is better implemented as a Claude Code skill — a slash command that handles both scaffolding new session manifests and loading existing ones. Feed the URL of this blog post to Claude and ask it to generate the skill. For an example, see [this skill definition](https://github.com/kxue43/substance/blob/main/.claude/skills/kxue43-session-file/SKILL.md).
+This is better implemented as a Claude Code skill — a slash command that handles both scaffolding new session manifests and loading existing ones. Feed the URL of this blog post to Claude and ask it to generate the skill. For an example, see [this skill definition](https://github.com/satoseino/substance/blob/main/.claude/skills/satoseino-session-file/SKILL.md).
 
 ## Key takeaways
 
