@@ -142,9 +142,9 @@ The outputs would be something like below.
 ```
 gpg/card> fetch
 gpg: requesting key from 'https://github.com/satoseino.gpg'
-gpg: key C9EED408F4B6D021: "Sato Seinosuke (satoseino.github.io) <kent.xue@ascendingdc.com>" not changed
+gpg: key 41996E9C463CE073: public key "Sato Seinosuke (Commit-signing for GitHub) <72355409+satoseino@users.noreply.github.com>" imported
 gpg: Total number processed: 1
-gpg:              unchanged: 1
+gpg:               imported: 1
 
 gpg/card> quit
 ```
@@ -155,11 +155,10 @@ The outputs should be something like below.
 ```
 [keyboxd]
 ---------
-sec>  rsa4096 2025-12-24 [SC]
-      5EF2BE73370DCE7E808814DBC9EED408F4B6D021
+sec>  rsa3072 2026-09-26 [SC]
+      E85F342A435382B5DB8C10C941996E9C463CE073
       Card serial no. = 0006 27538718
-uid           [ unknown] Sato Seinosuke (satoseino.github.io) <kent.xue@ascendingdc.com>
-ssb>  rsa4096 2025-12-24 [E]
+uid           [ unknown] Sato Seinosuke (Commit-signing for GitHub) <72355409+satoseino@users.noreply.github.com>
 ```
 
 ## References

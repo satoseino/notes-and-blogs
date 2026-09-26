@@ -14,14 +14,10 @@ menus:
     - name: "Blogs"
       pageRef: "/blogs/"
       weight: 30
-    # - name: "Novels"
-    #   pageRef: "/novels/"
-    #   weight: 40
 params:
   mainSections:
     - notes
     - blogs
-    # - novels
 
 taxonomies:
   tag: tags
